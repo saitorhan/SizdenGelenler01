@@ -18,6 +18,8 @@ namespace ConsoleApplication1
             Console.WriteLine("Başlangıç değerini giriniz");
             string alinanDeger = Console.ReadLine();
 
+            // string sayi dönüşüm işlemleri için https://youtu.be/IjuDU5AMTOI linkinden ilgili videomu izleyebilirsiniz. 
+
             if (!Int32.TryParse(alinanDeger, out baslangic))
             {
                 Console.WriteLine("Girilen değer tam sayı olmak zorunda.");
@@ -58,11 +60,13 @@ namespace ConsoleApplication1
 
             Random random = new Random();
 
-            for (int i = 0; i < istenenSayiAdedi; i++)
+            for (int i = 0; i < istenenSayiAdedi; )
             {
                 int sayi = random.Next(baslangic, bitis + 1);
+                if (sayi % 2 != 1) continue;
                 toplam += sayi;
                 sayilar[i, 0] = sayi;
+                i++;
             }
 
             double ortalama = toplam / (double)istenenSayiAdedi;
