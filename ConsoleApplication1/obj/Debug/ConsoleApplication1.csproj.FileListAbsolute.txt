@@ -1,0 +1,6 @@
+E:\Udemy\SizdenGelenler\SizdenGelenler\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\Udemy\SizdenGelenler\SizdenGelenler\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\Udemy\SizdenGelenler\SizdenGelenler\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\Udemy\SizdenGelenler\SizdenGelenler\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\Udemy\SizdenGelenler\SizdenGelenler\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\Udemy\SizdenGelenler\SizdenGelenler\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
