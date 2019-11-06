@@ -70,6 +70,7 @@ namespace ConsoleApplication1
             }
 
             double ortalama = toplam / (double)istenenSayiAdedi;
+            Console.WriteLine("Rastgele oluşturulan sayıların ortalaması: {0:F3}", ortalama);
 
             for (int i = 0; i < istenenSayiAdedi; i++)
             {
@@ -94,6 +95,8 @@ namespace ConsoleApplication1
                 }
             }
 
+            Console.WriteLine("Ortalamaya en yakın {0} sayı", gosterilecekSayiAdedi);
+            Console.WriteLine("");
             for (int i = 0; i < gosterilecekSayiAdedi; i++)
             {
                 Console.WriteLine(sayilar[i,0]);
